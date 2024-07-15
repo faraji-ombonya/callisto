@@ -3,33 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Custom Component Library</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="h-full">
+    <!-- Application UI / Forms -->
+    <!-- Tailwind CSS Sign-in and Registration -->
     <!-- simple -->
-    <!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
-    <!--
-  This example requires updating your template:
-
-  ```
-  <html class="h-full bg-white">
-  <body class="h-full">
-  ```
--->
     <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
       <div class="sm:mx-auto sm:w-full sm:max-w-sm">
         <img
@@ -109,6 +89,21 @@
             >Start a 14 day free trial</a
           >
         </p>
+      </div>
+    </div>
+
+    <!-- Application UI / Layout -->
+    <!-- Tailwind CSS Cards -->
+    <!-- Use these Tailwind CSS card components to break your dashboards, profile pages, or admin interfaces up into smaller cards and wells for things like charts, tables, or forms. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts. -->
+    <!-- Basic card -->
+     
+    <div
+      class="flex flex-row justify-center container px-6 py-12 bg-gray-100 rounded-sm shadow-inner"
+    >
+      <div class="p-6 h-80 bg-white w-full max-w-2xl shadow-md rounded-md">
+        <div
+          class="border border-dashed rounded h-full bg-[url('assets/diagonal-lines.svg')]"
+        ></div>
       </div>
     </div>
   </body>
